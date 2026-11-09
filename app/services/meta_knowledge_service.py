@@ -167,6 +167,7 @@ class MetaKnowledgeService:
                         column_info.table_id, column_info.name, 100000
                     )
                 )
+                # 列表推导式
                 current_values_infos = [
                     ValueInfo(
                         id=f"{column_info.id}.{current_column_value}",
